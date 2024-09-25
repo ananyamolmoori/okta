@@ -1,0 +1,23 @@
+[project]
+name = "okta"
+version = "0.1.0"
+description = "verification through okta"
+authors = [
+    {name = "ananyamolmoori25", email = "MolmooriSai.Ananya@genpact.com"},
+]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.6",
+    "streamlit>=1.38.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
